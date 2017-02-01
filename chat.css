@@ -50,9 +50,18 @@ body {
   opacity: 0;
 }
 
+.messages .message.left .screenName {
+  vertical-align: top;
+  color: #c48843;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: inline-flex;
+}
+
 .messages .message.left .avatar {
   background-color: #f5886e;
   float: left;
+  margin-top: 30px;
 }
 .messages .message.left .text_wrapper {
   background-color: #ffe6cb;
@@ -65,9 +74,20 @@ body {
 .messages .message.left .text {
   color: #c48843;
 }
+
+.messages .message.right .screenName {
+  float: right;
+  vertical-align: top;
+  color: #45829b;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  display: inline-flex;
+}
+
 .messages .message.right .avatar {
   background-color: #fdbf68;
   float: right;
+  margin-top: 30px;
 }
 .messages .message.right .text_wrapper {
   background-color: #c7eafc;
